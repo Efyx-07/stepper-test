@@ -1,11 +1,11 @@
 .stepper-back {
     width: 100%;
     height: .5rem;
-    background: grey;
+    background: rgb(167, 181, 219);
 }
 
 .stepper {
     height: 100%;
-    background: cyan;
+    background: var(--accent);
     transition: width .5s ease-in-out;
 }

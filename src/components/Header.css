@@ -1,5 +1,5 @@
 header {
     width: 100%;
     height: 4rem;
-    background: rgb(70, 70, 70);
+    background: var(--background);
 }
