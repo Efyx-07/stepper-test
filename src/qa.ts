@@ -1,41 +1,36 @@
 const qas = [
     {
         id: 1,
-        question: "Pour quels types de projets ai-je besoin d’une autorisation d’urbanisme ?",
+        question: "Quels sont les bienfaits des légumes dans une alimentation équilibrée ?",
         answer: `
-                Un permis de construire ou une déclaration préalable de travaux est nécessaire pour de nombreux travaux venant modifier l’aspect extérieur de votre habitat ou créant de la surface.
-                Il est bien connu de demander une autorisation pour construire une extension mais beaucoup moins lorsqu’il s’agit d’un abri de jardin ou l’installation d’une clôture.
-                Et pourtant, que ce soit pour les petits ou les grands projets, déposer un dossier de permis de construire ou de déclaration préalable de travaux est obligatoire.
-                Les principaux projets nécessitant une autorisation d’urbanisme sont les maisons, les agrandissements, les garages et carports, les abris de jardin, les annexes, les clôtures et portails, les piscines, les terrasses, les panneaux solaires, les modifications de menuiseries, les modifications de façades et de toitures.
+                Les légumes sont essentiels pour un bon équilibre alimentaire. Riches en vitamines, minéraux et fibres, ils aident à renforcer le système immunitaire, facilitent la digestion et réduisent les risques de maladies chroniques.
+                En incorporant une variété de légumes colorés à vos repas, vous assurez un apport diversifié en nutriments essentiels. Des légumes comme les épinards, le brocoli et les carottes sont particulièrement bénéfiques pour la santé.
+                Intégrer des légumes quotidiennement est donc crucial pour maintenir une bonne vitalité et un bien-être optimal.
                 `
     },
 
     {
         id: 2,
-        question: "Quels sont les risques si je ne demande pas une autorisation d’urbanisme ?",
+        question: "Quels sont les risques d'une alimentation trop riche en sucre ?",
         answer: `
-                Ne pas effectuer cette procédure légale dans les règles, c'est s'exposer à de gros risques :
-                • Jusqu’à 6000 € d'amende par m2 non déclaré ou mal déclaré
-                • Une possibilité d’un arrêté préfectoral de démolition
-                • Un rattrapage des taxes foncières et d’aménagement sur plusieurs années
-                • Un projet qui reste opposable par un tiers
-                • Des assurances ne vous couvriront pas en cas de sinistres
+                Une consommation excessive de sucre présente de nombreux risques pour la santé :
+                • Augmentation du risque de diabète de type 2
+                • Prise de poids et obésité
+                • Dégradation de la santé dentaire
+                • Énergie fluctuante, avec des pics et des baisses rapides
+                • Risque accru de maladies cardiovasculaires
 
-                Il ne faut donc pas prendre ces procédures légales à la légère et faire les choses dans les règles.
+                Pour ces raisons, il est conseillé de limiter les sucres ajoutés et de privilégier les sucres naturels présents dans les fruits et légumes.
                 `
     },
 
     {
         id: 3,
-        question: "Quelle est la différence entre un permis de construire et une déclaration préalable de travaux ?",
+        question: "Quelle est la différence entre les protéines animales et végétales ?",
         answer: `
-                On dit généralement qu'un permis de construire est demandé pour les gros travaux et la déclaration préalable de travaux pour les petits travaux. Mais c’est peu plus complexe puisque beaucoup de critères entrent en jeu.
-                Concernant les projets sans création de surface (comme les modifications de menuiseries, façades, installations de clôture…), il faut demander une déclaration préalable de travaux.
+                Les protéines animales (viande, poisson, œufs) et végétales (légumineuses, noix, graines) offrent toutes deux des bienfaits pour la santé. Les protéines animales contiennent tous les acides aminés essentiels, ce qui en fait des protéines "complètes".
 
-                Sachez que ces deux types d’autorisation d'urbanisme sont quasiment identiques. Ce sont les mêmes règles d’urbanisme à étudier, les mêmes plans à réaliser et la même procédure à suivre.
-                Ils représentent la même charge de travail et la même complexité !
-
-                La seule différence se trouve dans les délais d'instruction de la mairie, généralement un peu plus courts pour une déclaration préalable de travaux que pour un permis de construire (à condition de ne pas être en zone protégée).
+                En revanche, les protéines végétales sont souvent plus riches en fibres et en antioxydants, et sont associées à un moindre risque de maladies cardiovasculaires. L’idéal est d’équilibrer les deux types dans son alimentation pour bénéficier de leurs avantages respectifs.
                 `
     },
 ];
