@@ -37,5 +37,13 @@ a {
 
 .page {
   min-height: calc(100dvh - 4.5rem);
+  max-width: 65rem;
   padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.arrow {
+  cursor: pointer;
 }
